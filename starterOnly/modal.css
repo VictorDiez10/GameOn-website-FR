@@ -527,3 +527,38 @@ footer {
   }
 }
 
+.formData.error input {
+  border-color: #e74c3c;
+}
+
+.formData .error {
+  display: block;
+}
+
+.formData .success {
+  display: none;
+  
+}
+
+/* .formData small {
+	display: none;
+}
+
+.formData small {
+	display: none;
+} */
+
+.formData.error small {
+	display: block;
+  font-weight: 400;
+  font-size: 0.625rem;
+  color: #e74c3c;
+}
+
+.formData.success small {
+	display: none;
+}
+
+.formData.success input {
+  border-color: transparent;
+}
